@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .column{
+            background-color: #ffffff;
+            padding: 20;
+            px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0.1);
+            font: 18px;
+            line-height:  1.6;
+
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        #sakina{
+            background-color: blue;
+            color: #ffffff;
+        }
+        #kumu{
+            background-color: orange;
+            color: aqua;
+        
+
+        }
+        .footer-container{
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+        .footer-column{
+            flex: 1 1 250px;
+            margin: 20px 0;
+        }
+        .footer-column h3{
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: red;
+        }
+        .footer-column ul{
+            list-style: non;
+            padding: 0;
+        }
+        .footer-column ul il a{
+            color: bbb;
+            text-decoration: none;
+            transition: colour 0.3s;
+        }
+        .footer-column ul li a:hover{
+            color: #ffffff;
+        }
+        footer{
+            background: color #222;
+            color: #f0f0f0;
+            padding: 40px 0;
+        }
+        .footer-social a{
+            margin-right: 15px;
+            color: #bbb;
+            font-size: 20px;
+            transition: colour 0.3s;
+
+        }
+        .footer-social a:hover{
+            color: #093efd;
+            background-color: yellow;
+            border-radius: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>WELCOME TO MY WEBSITE 29.</h1>
+    <div class="grid-container">
+        <div class="column">
+            <h2 id="kumu">education program</h2>
+            <p>education is importan for us becaus it can take where your feet cann't reach</p>
+        </div>
+
+        <div class="">
+            <h2 id="sakina">ENVIRONMENT program</h2>
+            <P>environment is around of living things and non living things is importan to keep our environment </P>
+        </div>
+    </div>
+    <h2>OUR PROGRAMM FREE AND AVAILABLE TO ERVERYONE THAT IS LOOKING FOR SKILL</h2>
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-column">
+            <h3>About us</h3>
+            <ul>
+                <li><a href="#">who we are</a></li>
+        <li><a href="#">our work</a></li>
+            <li><a href="#">impact</a></li>
+            <li><a href="#">vultee with us</a></li>
+             <li><a href="#">donat</a></li>
+             <ul>
+        </div>
+        <div footer-column>
+            <h3>quick links</h3>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">program</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">our policy</a></li>
+            </ul>
+            <div>
+                <div class="footer-column">
+                <h3>follow us here:-</h3>
+                <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                 <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-x"></i></a>
+                   <a href="#"><i class="fab fa-intagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
